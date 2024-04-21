@@ -1,6 +1,6 @@
-import { useState } from 'react';
-import { Button, Image, View, StyleSheet } from 'react-native';
-import * as ImagePicker from 'expo-image-picker';
+import { useState } from "react";
+import { Button, Image, View, StyleSheet } from "react-native";
+import * as ImagePicker from "expo-image-picker";
 
 export default function ImagePickerExample() {
   const [image, setImage] = useState(null);
@@ -34,6 +34,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
+    backgroundColor: "white",
   },
   image: {
     width: 200,
